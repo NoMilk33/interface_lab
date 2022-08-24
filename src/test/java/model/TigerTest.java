@@ -1,5 +1,6 @@
 package model;
 
+import model.animals.Tiger;
 import model.interfaces.ISwim;
 import model.interfaces.IHunt;
 import model.interfaces.IRun;

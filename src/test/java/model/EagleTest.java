@@ -1,5 +1,6 @@
 package model;
 
+import model.animals.Eagle;
 import model.interfaces.IFly;
 import model.interfaces.IHunt;
 

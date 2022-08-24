@@ -1,7 +1,7 @@
-import model.Eagle;
-import model.Puffin;
-import model.Seal;
-import model.Tiger;
+import model.animals.Eagle;
+import model.animals.Puffin;
+import model.animals.Seal;
+import model.animals.Tiger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

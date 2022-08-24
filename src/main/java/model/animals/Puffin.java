@@ -1,12 +1,18 @@
-package model;
+package model.animals;
 
+import model.interfaces.IAnimal;
 import model.interfaces.IFly;
+import model.interfaces.IPrey;
 import model.interfaces.ISwim;
 
 public class Puffin implements IAnimal, IFly, ISwim, IPrey {
-    @Override
+
     public void eat() {
         System.out.println("Puffin is eating");
+    }
+
+    public void prey(){
+        System.out.println("Puffin is preying");
     }
 
     @Override
@@ -24,7 +30,7 @@ public class Puffin implements IAnimal, IFly, ISwim, IPrey {
         System.out.println("Puffin is swimming");
     }
 
-    @Override
+
     public void flee() {
         System.out.println("Puffin is fleeing from preditor");
     }
