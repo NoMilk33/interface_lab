@@ -11,12 +11,18 @@ public class Eagle implements IAnimal, IFly, IHunt {
         System.out.println("Eagle is flying");
     }
 
-   // @Override
+    @Override
     public void hunt() {
         System.out.println("Eagle is hunting");
     }
 
+    @Override
     public void sleep(){
+        System.out.println("Eagle is sleeping");
+    }
+
+    @Override
+    public void eat(){
         System.out.println("Eagle is sleeping");
     }
 }
