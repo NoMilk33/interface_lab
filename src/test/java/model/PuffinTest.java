@@ -2,6 +2,8 @@ package model;
 
 import model.animals.Puffin;
 import model.interfaces.IFly;
+import model.interfaces.IAnimal;
+import model.interfaces.IPrey;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
